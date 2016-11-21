@@ -1,0 +1,30 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="static1"
+        android:enabled="true"
+        android:icon="@drawable/shortcut_1"
+        android:shortcutShortLabel="@string/label_1_short"
+        android:shortcutLongLabel="@string/label_1_long"
+        android:shortcutDisabledMessage="@string/label_1_disabled_message">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.miruker.example.appshortcut"
+            android:targetClass="com.miruker.example.appshortcut.Shortcut1Activity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="static2"
+        android:enabled="true"
+        android:icon="@drawable/shortcut_2"
+        android:shortcutShortLabel="@string/label_2_short"
+        android:shortcutLongLabel="@string/label_2_long"
+        android:shortcutDisabledMessage="@string/label_2_disabled_message">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.miruker.example.appshortcut"
+            android:targetClass="com.miruker.example.appshortcut.Shortcut2Activity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

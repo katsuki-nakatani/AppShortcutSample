@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppShortcut</string>
+
+    <string name="label_1_short">Label1</string>
+    <string name="label_1_long">Label1</string>
+    <string name="label_1_disabled_message">このアイコンは無効です</string>
+    <string name="label_2_short">Label2</string>
+    <string name="label_2_long">Label2</string>
+    <string name="label_2_disabled_message">このアイコンは無効です</string>
+</resources>
